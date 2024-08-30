@@ -1,0 +1,24 @@
+
+/pb_data/
+/pb_migrations/
+pocketbase
+/pb_data/types.d.ts
+
+CHANGELOG.md
+LICENSE.md
+CHANGELOG*.md
+# # Ignore everything
+# *
+
+# # But not these files...
+# !.gitignore
+# !script.pl
+# !template.latex
+# # etc...
+
+# # ...even if they are in subdirectories
+# !*/
+
+# # if the files to be tracked are in subdirectories
+# !*/a/b/file1.txt
+# !*/a/b/c/*
